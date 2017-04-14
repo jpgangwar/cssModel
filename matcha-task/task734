@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title></title>
+        <!-- Bootstrap -->
+        <link href="css/task.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://use.fontawesome.com/327df86249.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <section>
+            <div class="wrapper-full wrapper-bg">
+                <div class="full-section">
+                    <div class="section-text">
+                        <p>Free Shipping On Orders Over $50.00!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="nav-bar-section">
+            <div class="wrapper">
+                <div class="ul-list">
+                    <div class="left-menu">
+                        <ul class="nav-list">
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Learn</a></li>
+                            <li><a href="">Our Story</a></li>
+                            <li><a href="">Journal</a></li>
+                        </ul>
+                    </div>
+                    <div class="midle-menu">
+                        <ul class="nav-list">
+                            <img src="img/logo.png" alt="logo">
+                        </ul>
+                    </div>
+                    <div class="right-menu">
+                        <ul class="nav-list">
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Learn</a></li>
+                            <li><a href="">Our Story</a></li>
+                            <li><a href="">Journal</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="second-section">
+            <div class="img-section">
+                <div class="some-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Bringing the world's best Matcha to you</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="two-button-link">
+                                <span class="or">or</span>
+                                <a href="" class="watch-video"><i class="fa fa-play" aria-hidden="true"></i>Watch video</a>
+                                <a href="" class="visit-store">Visit store</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

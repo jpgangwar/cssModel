@@ -1,0 +1,24 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fc4a1a;
+}
+
+.body-section{
+	position: absolute;
+	width:100%;
+	
+}
+.footer-patch{
+	height: 40px;
+    background-color: #003046;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+
+.footer-patch h2{
+	color: white;
+	text-align: center;
+
+}

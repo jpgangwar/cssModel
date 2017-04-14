@@ -1,0 +1,36 @@
+body{
+	background: aliceblue !important;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.registration-title{
+	float: left;
+	width: 100%;
+	color: #fff;
+}
+.registration-title h1{
+	background: #003046;
+	text-align: center;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+
+.registration-field{
+	float: left;
+	width: 100%;
+}
+.All-fields{
+	
+	margin:0 auto;
+	width: 50%;
+}
+
+.border-error{
+	border: 1px solid red !important;
+}
+.border-green{
+	border: 1px solid green !important;
+}

@@ -1,0 +1,40 @@
+body{
+	background: #e5e5e5;
+	color: #003046;
+}
+
+.two-button{
+	    margin: auto;
+	    width: 80%;
+	    text-align: center;
+	    background: burlywood;
+}
+
+.margin-50{
+	padding-top: 50px;
+}
+
+.fetch-user-data{
+	margin-top: 20px;
+}
+
+.table-top{
+	padding-top: 30px;
+}
+
+.table>thead>tr>th{
+	text-align: center;
+}
+
+.table>thead>tr{
+	background: black;
+    color: white;
+}
+
+.btnDelete a{
+	color: white !important;
+}
+
+td{
+	text-align: center;
+}

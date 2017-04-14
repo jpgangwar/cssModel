@@ -1,0 +1,65 @@
+body{
+	background: #e5e5e5;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #003046;
+    transition: 0.5s
+}
+
+label{
+	font-size: 20px;
+    color: black;
+}
+
+.table-data1{
+	width: 100%;
+	border: 1px solid #003046;
+}
+.table-data1 thead tr{
+	background: #003046;
+}
+
+.table-data1 thead tr th{
+	width: 20%;
+	font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+tr td{
+	text-align: center;
+}
+
+.btn-smt{
+	background: #003046;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+}

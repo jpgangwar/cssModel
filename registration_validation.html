@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Registration | Fields validations</title>
+        <!-- Bootstrap -->
+        <link href="css/registration.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css'/>
+
+        <script src="https://use.fontawesome.com/327df86249.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="js/registration.js"></script>
+  
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="registration-title">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="registration-field">
+                <div class="All-fields">
+
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="" class="control-label">Name</label>
+                            <input type="text" name="name" id="a" class="form-control" placeholder="Enter your name..." onblur="only_alpha()">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label">Email:</label>
+                            <input type="text" name="email" class="form-control" placeholder="Enter your email...">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label">Password:</label>
+                            <input type="text" name="password" class="form-control" placeholder="Enter your password...">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label">Mobile:</label>
+                            <input type="text" name="mobile" id="quantity" class="form-control" placeholder="Enter your mobile..." onblur="only_number()">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label">Bank Account:</label>
+                            <input type="text" name="bankacct" class="form-control" placeholder="Enter your bank account...">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label">Bank IFSC:</label>
+                            <input type="text" name="bankifsc" class="form-control" placeholder="Enter your bank ifsc code here...">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label">Pin Code:</label>
+                            <input type="text" name="pincode" class="form-control" placeholder="Enter your pincode...">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">PAN Number</label>
+                            <input type="text" placeholder="PAN number" onblur="validate_Pan_num()" id="validate-pan" class="form-control" required="true">
+                            <div class="help-block">Ex: ABCDE1234A</div>
+                            <p id="pan-error" style="color: red;display: none;">Invalid PAN</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2">From Date</label>
+                            <div class="input-group col-sm-4">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" name="" class="form-control datepicker" placeholder="dd/mm/yyyy" required="true">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
